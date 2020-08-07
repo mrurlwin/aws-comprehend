@@ -62,6 +62,17 @@ class Comprehend
     }
 
     /**
+     * Inspects a batch of documents and returns the syntax for each one.
+     *
+     * @param array     $params
+     * @return array
+     */
+    public function batchDetectSyntax(array $params = [])
+    {
+        return $this->client->batchDetectSyntax($params);
+    }
+
+    /**
      * Inspects the text of a batch of documents for named entities and returns information about them.
      *
      * @param array     $params
@@ -103,6 +114,17 @@ class Comprehend
     public function detectSentiment(array $params = [])
     {
         return $this->client->detectSentiment($params);
+    }
+
+    /**
+     * Inspects text and returns the syntax.
+     *
+     * @param array     $params
+     * @return array
+     */
+    public function detectSyntax(array $params = [])
+    {
+        return $this->client->detectSyntax($params);
     }
 
     /**
