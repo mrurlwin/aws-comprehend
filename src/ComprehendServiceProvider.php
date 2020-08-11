@@ -1,6 +1,6 @@
 <?php
 
-namespace MichaelJWright\Comprehend;
+namespace MrUrlwin\Comprehend;
 
 use Illuminate\Support\ServiceProvider;
 

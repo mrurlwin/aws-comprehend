@@ -1,4 +1,6 @@
-<?php   namespace MichaelJWright\Comprehend;
+<?php
+
+namespace MrUrlwin\Comprehend;
 
 use Aws\Comprehend\ComprehendClient;
 use Aws\S3\S3Client;
